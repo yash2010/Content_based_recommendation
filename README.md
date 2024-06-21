@@ -30,8 +30,19 @@ pip install tensorflow pandas numpy scikit-learn seaborn matplotlib
 
 ## Usage
 
+1. Clone the repository:
 ```sh
 git clone https://github.com/yash2010/Content_based_recommendation.git
+```
+2. Navigate to the project directory:
+```sh
+cd Content_based_ewcommendation
+```
+3. Ensure that **_'title.csv_** is in the project repository
+   
+4.  Run the Python Script:
+```sh
+python Content_based_ewcommendation.py
 ```
 ## Functions
 
