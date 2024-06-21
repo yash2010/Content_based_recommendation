@@ -1,12 +1,12 @@
-# Content Based Movie Recommendation system
+# Content Based Movie Recommendation system 🎥
 
 This repository contains a movie recommendation system that leverages natural language processing and machine learning techniques to recommend movies based on a user's plot search. The system uses a TF-IDF vectorizer to transform movie descriptions into numerical vectors and then calculates cosine similarities to find and rank movies that are most similar to the user's input.
 
-## Dataset
+## Dataset🧾
 
 The dataset used for this project is stored in a CSV file named titles.csv. This file contains movie titles, descriptions, genres, and production countries.
 
-## Files
+## Files 📁
 
 Movie_Recommendation.ipynb: Jupyter notebook containing the implementation of the movie recommendation system.
 
@@ -57,7 +57,7 @@ python Content_based_ewcommendation.py
 + Sorts movies by similarity scores in descending order.
 + Returns the top 'n' most similar movies.
 
-## Visualization
+## Visualization 📊
 The notebook also generates a similarity heatmap for the top recommended movies using Seaborn's hearmap function. This heatmap visually represents the pairwise similarity scores between the top recommended movies.
 
 ## Example 
